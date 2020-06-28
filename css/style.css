@@ -1,0 +1,386 @@
+body {
+  font-family: "Montserrat";
+}
+
+/* Navbar */
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #333333;
+}
+
+.nav-item.active a,
+.nav-link span {
+  color: #f9b234 !important;
+  font-weight: 600;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+.navbar .nav-link:hover {
+  color: #f9b234 !important;
+}
+
+/* Carousel */
+.carousel {
+  height: auto;
+  background-color: #171717;
+}
+
+.carousel h1 {
+  font-family: "Lora";
+  font-weight: bold;
+}
+
+.carousel .btn,
+.my-single-product .btn,
+.my-cart-checkout .btn,
+.modal-footer .btn {
+  background-color: #f9b234;
+  font-weight: 600;
+}
+
+.carousel .btn:hover,
+.my-single-product .btn:hover,
+.my-cart-checkout .btn:hover,
+.modal-footer .btn:hover {
+  background-color: darkgoldenrod;
+}
+
+.carousel .row {
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+/* .carousel-item a img {
+  transition: 0.3s;
+}
+
+.carousel-item a img:hover {
+  opacity: 0.7;
+} */
+
+.carousel-img a {
+  display: block;
+  position: relative;
+}
+
+.carousel-img a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: 0.3s;
+}
+.carousel-img a:hover::after {
+  opacity: 1;
+}
+
+/* Brands */
+.brands a {
+  display: block;
+  position: relative;
+}
+
+.brands a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  transition: 0.3s;
+}
+.brands a:hover::after {
+  opacity: 1;
+}
+
+/* Features */
+.features h3,
+.designers h3,
+.my-similar-product h3,
+.my-category h3,
+.cart-header h3,
+.success-checkout h3 {
+  font-family: "Lora";
+  color: #1b2690;
+  font-weight: 700;
+}
+
+.figure h5,
+.my-single-product span {
+  color: #171717;
+}
+
+.figure {
+  position: relative;
+}
+
+.figure .icon-detail {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 61.5px;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: 0.3s;
+}
+
+figure:hover .icon-detail {
+  opacity: 1;
+}
+
+.features a h5,
+.features a p {
+  transition: 0.3s;
+}
+
+.features a:hover h5,
+.features a:hover p {
+  color: #1b2690 !important;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Designers */
+.designers a img,
+.designers a h5,
+.designers a p {
+  transition: 0.3s;
+}
+
+.designers a:hover img {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.designers a:hover h5,
+.designers a:hover p,
+.designers a:hover {
+  color: #1b2690 !important;
+  text-decoration: none;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.designers .my-btn-designers a {
+  color: #1b2690;
+}
+
+.designers .my-btn-designers a:hover {
+  text-decoration-line: underline;
+  text-shadow: none;
+}
+
+/* Footer */
+footer a:hover {
+  text-decoration: none;
+}
+
+footer .nav-link:hover {
+  text-decoration-line: underline;
+  color: #1b2690 !important;
+}
+
+/* SINGLE PRODUCT */
+/* Breadcrumb */
+.breadcrumb {
+  margin-top: 80px;
+}
+
+.breadcrumb .breadcrumb-item a {
+  color: #1b2690;
+}
+
+.my-cart-breadcrumb {
+  margin-top: 0;
+}
+
+/* Single Product */
+.my-product-thumbnails {
+  background-color: white;
+  width: 360px;
+  transform: translateY(-60px);
+}
+
+.my-single-product .my-product-thumbnails a.active {
+  box-shadow: 0 0 0 1px #1abc9c;
+}
+
+.my-single-product .my-product-thumbnails a:hover img {
+  box-shadow: 0 0 0 1px #1abc9c;
+}
+
+.my-single-product .my-btn-secondary,
+.my-cart-checkout .my-btn-secondary,
+.modal-footer .my-btn-secondary,
+.success-checkout .my-btn-secondary {
+  background-color: #dddddd;
+  color: white;
+}
+
+.success-checkout .my-btn-secondary {
+  font-weight: 600;
+}
+
+.my-single-product .my-btn-secondary:hover,
+.my-cart-checkout .my-btn-secondary:hover,
+.modal-footer .my-btn-secondary:hover,
+.success-checkout .my-btn-secondary:hover {
+  background-color: #bbbbbb;
+}
+
+.my-single-product .my-btn-plus,
+.my-cart-checkout .my-btn-plus {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.my-single-product .my-btn-plus:hover,
+.my-cart-checkout .my-btn-plus:hover {
+  background-color: darkcyan;
+}
+
+.my-single-product a table {
+  color: #171717;
+}
+
+.my-single-product a img,
+.my-single-product a h5,
+.my-single-product a p,
+.my-single-product a span {
+  transition: 0.3s;
+}
+
+.my-single-product a:hover {
+  text-decoration: none;
+}
+
+.my-single-product a:hover img {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.my-single-product a:hover table,
+.my-single-product a:hover p,
+.my-single-product a:hover span {
+  text-decoration: none;
+  color: #1b2690 !important;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Product Description & Review */
+.my-description-review {
+  height: 350px;
+}
+
+.my-description-review .tab-content {
+  background-color: white;
+  border: 1px solid #dee2e6;
+  border-top: none;
+}
+
+.my-description-review .tab-content p {
+  font-weight: 300;
+  line-height: 28px;
+}
+
+.my-review {
+  height: 350px;
+  overflow: scroll;
+}
+
+.my-description-review .nav-link {
+  color: #6c757d;
+}
+
+.my-description-review .nav-link.active {
+  color: #171717;
+}
+
+.my-description-review span {
+  color: #1abc9c !important;
+}
+
+/* Similar Product */
+.my-similar-product {
+  margin-top: 200px;
+}
+
+.my-similar-product a figure,
+.my-similar-product a figure h5,
+.my-similar-product a figure p {
+  transition: 0.3s;
+}
+
+.my-similar-product a:hover figure {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.my-similar-product a:hover figure h5,
+.my-similar-product a:hover figure p {
+  color: #1b2690;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* Category */
+.my-category a figure,
+.my-category a figure h5,
+.my-category a figure p,
+.my-category a figure .btn {
+  transition: 0.3s;
+}
+
+.my-category a:hover figure {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+.my-category a:hover figure h5,
+.my-category a:hover figure p {
+  color: #1b2690;
+  margin-left: 15px;
+}
+
+figure .btn {
+  background-color: #1abc9c;
+  font-weight: 600;
+}
+
+.my-category a:hover figure .btn {
+  margin-right: 15px;
+  background-color: darkcyan;
+}
+
+/* Cart Checkout */
+.my-cart-checkout .my-btn-delete {
+  background-color: #e74e3c;
+  color: white;
+}
+
+.my-cart-checkout .my-btn-delete:hover {
+  background-color: darkred;
+}
+
+.card p {
+  color: #1abc9c;
+  font-weight: 500;
+}
+
+.card .my-promo {
+  color: #e74e3c;
+  font-weight: 500;
+}
+
+.card .my-total-harga {
+  color: #1b2691;
+  font-weight: 500;
+}
+
+.success-checkout {
+  margin-top: 5%;
+}

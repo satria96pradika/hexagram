@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Hexagram</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo.png" alt="Hexagram" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav text-uppercase mx-auto">
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="category.html">Category</a>
+            </li>
+            <li class="nav-item mr-4">
+              <a class="nav-link" href="#">Designer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+          <a href="cart-checkout.html" class="nav-link text-white px-0"
+            ><i class="fas fa-shopping-cart"></i> My Cart (<span>3</span>)</a
+          >
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Breadcrumbs -->
+    <div class="container">
+      <nav>
+        <ol class="breadcrumb bg-transparent pl-0">
+          <li class="breadcrumb-item">
+            <a href="category.html">Category</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="#">Special Eid Lebaran</a>
+          </li>
+          <li class="breadcrumb-item active">Silversat</li>
+        </ol>
+      </nav>
+    </div>
+    <!-- Akhir Breadcrumbs -->
+
+    <!-- Single Product -->
+    <section class="my-single-product">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <figure class="figure">
+              <img src="img/single-product/1.png" class="figure-img img-fluid" alt="Silversat" />
+              <figcaption
+                class="figure-caption shadow p-2 mx-auto my-product-thumbnails justify-content-between d-flex"
+              >
+                <a href="#" class="active">
+                  <img src="img/single-product/thumbnails/1.png" />
+                </a>
+                <a href="#">
+                  <img src="img/single-product/thumbnails/2.png" />
+                </a>
+                <a href="#">
+                  <img src="img/single-product/thumbnails/3.png" />
+                </a>
+                <a href="#">
+                  <img src="img/single-product/thumbnails/4.png" />
+                </a>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="col-lg-4">
+            <h3>Silversat</h3>
+            <p class="text-muted">IDR 209.000</p>
+            <button type="button" class="btn my-btn-secondary btn-sm">
+              <i class="fas fa-minus-circle"></i>
+            </button>
+            <span class="mx-2">25</span>
+            <button type="button" class="btn btn-sm my-btn-plus">
+              <i class="fas fa-plus-circle"></i>
+            </button>
+            <div class="col pl-0">
+              <a href="#" class="btn d-block my-3 text-white">Add to Cart</a>
+              <a href="#" class="btn d-block my-btn-secondary text-muted my-3">Add to Wishlist</a>
+              <hr class="my-5" />
+            </div>
+            <p class="text-muted">Designed by</p>
+            <a href="#">
+              <table class="table-borderless mb-5">
+                <tr>
+                  <td>
+                    <img src="img/designers/3.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                  </td>
+                  <td class="px-3">
+                    <h5>Katherine Langford</h5>
+                    <p class="text-muted my-0"><span>12.5K</span> Followers</p>
+                  </td>
+                </tr>
+              </table>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Single Product -->
+
+    <!-- Product Description & Review -->
+    <section class="my-description-review bg-light p-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link active"
+                  id="my-description-tab"
+                  data-toggle="tab"
+                  href="#my-description"
+                  role="tab"
+                  aria-controls="my-description"
+                  aria-selected="true"
+                  >Product Description</a
+                >
+              </li>
+              <li class="nav-item" role="presentation">
+                <a
+                  class="nav-link"
+                  id="my-review-tab"
+                  data-toggle="tab"
+                  href="#my-review"
+                  role="tab"
+                  aria-controls="my-review"
+                  aria-selected="false"
+                  >Reviews (<span>8</span>)</a
+                >
+              </li>
+            </ul>
+            <div class="tab-content p-3 shadow" id="myTabContent">
+              <div
+                class="tab-pane fade my-description show active"
+                id="my-description"
+                role="tabpanel"
+                aria-labelledby="my-description-tab"
+              >
+                <p class="text-muted">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores, fugiat? Sapiente, repellat error
+                  similique, iste laborum voluptates vero numquam nobis in dolorem doloremque nesciunt omnis totam alias
+                  quis sequi, eius consectetur earum voluptas modi. Eum natus illo quaerat omnis saepe ex atque,
+                  distinctio at tempora fugiat! Fugit iusto soluta est.
+                </p>
+              </div>
+              <div class="tab-pane fade my-review" id="my-review" role="tabpanel" aria-labelledby="my-review-tab">
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/1.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Nico Robin</h5>
+                      <p class="text-muted">
+                        Produknya bagus, bahannya sangat lembut dan nyaman
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/2.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Nami</h5>
+                      <p class="text-muted">
+                        Kerudungnya nyaman banget gak bikin panas
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/3.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Boa Hancock</h5>
+                      <p class="text-muted">
+                        Cocok untuk kegiatan sehari hari
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/4.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Vivi</h5>
+                      <p class="text-muted">
+                        Produknya bagus, bahannya sangat lembut dan nyaman
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/1.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Elizabeth Henstridge</h5>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit, expedita?
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/2.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Chloe Grace Moretz</h5>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis recusandae nostrum amet
+                        itaque voluptate delectus deleniti tempora vel, excepturi modi.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/3.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Ariana Grande</h5>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, assumenda ipsum. Quia
+                        explicabo aut, ipsa quaerat ipsam perferendis sequi eum inventore repellendus adipisci optio
+                        exercitationem vel deleniti magnam porro pariatur?
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+                <table class="table-borderless">
+                  <tr>
+                    <td class="align-top">
+                      <img src="img/reviews/4.png" alt="James McAvoy" width="50px" class="rounded-circle" />
+                    </td>
+                    <td class="px-3">
+                      <h5>Katy Perry</h5>
+                      <p class="text-muted">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate facilis inventore totam
+                        eligendi veritatis cumque nostrum recusandae modi quae ea. Maiores, minima. Earum praesentium
+                        perspiciatis possimus ducimus veritatis quae explicabo et. Est voluptates illo, velit sed ipsum
+                        odit rem esse.
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Product Description & Review -->
+
+    <!-- Similar Product -->
+    <section class="my-similar-product">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3>Similar Product</h3>
+            <p class="text-muted">Pakaian pelengkap produk di atas.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <a href="#">
+              <figure class="figure">
+                <img src="img/similar-product/1.png" class="figure-img img-fluid" alt="Hatty Bomb" />
+                <figcaption class="figure-caption">
+                  <div class="row">
+                    <div class="col">
+                      <h5>Hatty Bomb</h5>
+                      <p>Match 25%</p>
+                    </div>
+                    <div class="col justify-content-end align-items-center d-flex">
+                      <p>IDR 209.000</p>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="#">
+              <figure class="figure">
+                <img src="img/similar-product/2.png" class="figure-img img-fluid" alt="Hatty Bomb" />
+                <figcaption class="figure-caption">
+                  <div class="row">
+                    <div class="col">
+                      <h5>Navy Co</h5>
+                      <p>Match 25%</p>
+                    </div>
+                    <div class="col justify-content-end align-items-center d-flex">
+                      <p>IDR 209.000</p>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <a href="#">
+              <figure class="figure">
+                <img src="img/similar-product/3.png" class="figure-img img-fluid" alt="Hatty Bomb" />
+                <figcaption class="figure-caption">
+                  <div class="row">
+                    <div class="col">
+                      <h5>Silversat</h5>
+                      <p>Match 25%</p>
+                    </div>
+                    <div class="col justify-content-end align-items-center d-flex">
+                      <p>IDR 209.000</p>
+                    </div>
+                  </div>
+                </figcaption>
+              </figure>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Similar Product -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <a href="#">
+              <img src="img/logo.png" alt="Hexagram" />
+            </a>
+          </div>
+          <div class="col-5 text-right align-self-center">
+            <a href="#">
+              <img src="img/social-media/instagram.png" alt="Instagram" />
+            </a>
+            <a href="#" class="mx-2">
+              <img src="img/social-media/facebook.png" alt="Facebook" />
+            </a>
+            <a href="#">
+              <img src="img/social-media/twitter.png" alt="Twitter" />
+            </a>
+          </div>
+        </div>
+        <div class="row justify-content-between mt-3">
+          <div class="col-5">
+            <p class="mb-0 mt-2 text-muted">&copy; 2020 Hexagram. All Rights Reserved.</p>
+          </div>
+          <div class="col-6">
+            <nav class="nav justify-content-end text-uppercase">
+              <a class="nav-link px-0 text-muted" href="#">Jobs</a>
+              <a class="nav-link px-0 ml-4 text-muted" href="#">Developer</a>
+              <a class="nav-link px-0 ml-4 text-muted" href="#">Terms</a>
+              <a class="nav-link px-0 ml-4 text-muted" href="#">Privacy Police</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/all.js"></script>
+  </body>
+</html>
