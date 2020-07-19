@@ -1,2 +1,2 @@
 # hexagram
-HTML + CSS + Bootstrap 4.5
+HTML5 + CSS3 + Bootstrap 4.5
